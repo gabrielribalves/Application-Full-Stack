@@ -1,0 +1,17 @@
+{
+  "name": "Application-Full-Stack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:gabrielribalves/Application-Full-Stack.git",
+  "author": "Gabriel Gonçalves <gabriel.ribalves@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.14",
+    "socket.io": "^2.2.0"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js"
+  }
+}
